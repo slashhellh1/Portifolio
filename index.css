@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+
+    background-color: aqua;
+}
+
+header > h1,h2 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+header > div {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+
+}
+
+.links {
+    width: 100%;
+    height: 100px;
+
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+
+nav > a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
