@@ -1,54 +1,34 @@
 * {
     padding: 0;
     margin: 0;
-    
-
 }
 
-.header {
-    width: 100%;
-    height: 250px;
-
-    background-color: aqua;
-}
-
-header > h1,h2 {
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
     display: flex;
-    justify-content: center;
-    
-    
-}
-
-header > div {
-    width: 150px;
-    height: 150px;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: ;
-    align-items: center;
+    flex-direction: column;
+    align-items:  center;
 
 }
 
-.links {
+figure {
     width: 100%;
-    height: 100px;
+    height: 340px;
 
-    background-color: blue;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    
-}
-
-nav > a {
-    color: aliceblue;
-    text-decoration: none;
+    background-color: purple;
 
 }
-img {
-    width: 100%;
+.imageTop {
+    width: auto;
+    height: 340px;
+}
+header {
+    width: 1000px;
+    height: 450px;
     
+
+    background-color: orange;
+    
+   margin-top: -200px;
+
 
 }
