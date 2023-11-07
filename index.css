@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -17,18 +18,36 @@ figure {
     background-color: purple;
 
 }
-.imageTop {
-    width: auto;
-    height: 340px;
-}
+
+
 header {
     width: 1000px;
     height: 450px;
     
 
     background-color: orange;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.imagemPerfil {
+    width:  335px;
+    height: 335px;
+    border-radius: 100%;
     
-   margin-top: -200px;
+    margin: 622px, 56px, 43px, 56px ;
 
 
+}
+.boxIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageIcon {
+    width: 30px;
+    height: 30ox;
+   
 }
