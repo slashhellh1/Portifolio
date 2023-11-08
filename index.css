@@ -8,46 +8,114 @@ body {
     display: flex;
     flex-direction: column;
     align-items:  center;
+    background-color: rgb(212, 212, 212);
 
 }
 
-figure {
+figure > img {
     width: 100%;
     height: 340px;
 
-    background-color: purple;
 
 }
-
 
 header {
     width: 1000px;
     height: 450px;
     
 
-    background-color: orange;
+    background-color: #BB7B00;
     margin-top: -200px;
     display: flex;
     flex-direction: row;
 
-
 }
-.imagemPerfil {
-    width:  335px;
-    height: 335px;
-    border-radius: 100%;
+
+.headerName {
+    width: 600px;
+}
+
+.headerImage {
+    width: 400px;
+}
+
+.nomePerfil {
+    color: white;
+    width: 500;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.nomePerfil > h1 {
+    color: black;
+}
+
+.iconBox {
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 50px;
+    gap: 200px;
     
-    margin: 622px, 56px, 43px, 56px ;
-
-
 }
+
 .boxIcon {
+    width: 300px;
+    height: 50px;
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    
 }
 
+.imagemPerfil {
+    width:  350px;
+    height: 350px;
+    border-radius: 100%;
+    
+    margin-top: 60px;
+    margin-left: 20px ;
+
+}
 .imageIcon {
-    width: 30px;
-    height: 30ox;
+    width: 40px;
+    height: 40ox;
    
+}
+
+.sobreMim {
+    width: 1000px;
+    height: 450px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myHistory {
+    background-color: aqua;
+    width: 800px;
+    height: 350px;
+        
+}
+.myHistory > h2 {
+    justify-content: center;
+}
+.download {
+    margin-top: 25px;
+}
+.download > button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #BB7B00;
+    border: 1px;
+
 }
