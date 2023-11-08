@@ -15,6 +15,7 @@ body {
 figure > img {
     width: 100%;
     height: 340px;
+    
 
 
 }
@@ -25,7 +26,7 @@ header {
     
 
     background-color: #BB7B00;
-    margin-top: -200px;
+    margin-top: -300px;
     display: flex;
     flex-direction: row;
 
@@ -37,8 +38,19 @@ header {
 
 .headerImage {
     width: 400px;
+    
 }
+.imagemPerfil {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    
+    margin-top: 60px;
+    margin-left: 20px;
+    object-fit: cover;
 
+
+}
 .nomePerfil {
     color: white;
     width: 500;
@@ -74,15 +86,6 @@ header {
     
 }
 
-.imagemPerfil {
-    width:  350px;
-    height: 350px;
-    border-radius: 100%;
-    
-    margin-top: 60px;
-    margin-left: 20px ;
-
-}
 .imageIcon {
     width: 40px;
     height: 40ox;
@@ -94,19 +97,31 @@ header {
     height: 450px;
     background-color: white;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .myHistory {
-    background-color: aqua;
+    background-color: white;
     width: 800px;
     height: 350px;
-        
+           
 }
 .myHistory > h2 {
-    justify-content: center;
+    text-align: center;
+    text-decoration: underline wavy;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.myHistory > p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .download {
     margin-top: 25px;
@@ -118,4 +133,75 @@ header {
     background-color: #BB7B00;
     border: 1px;
 
+}
+.courseHistory {
+    width: 1000px;
+    height: 2500px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.courseTitle {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+}
+.verticalLine {
+    height: 200px;
+    border-right: 1px solid red;
+}
+
+.horizontalLine {
+    width: 300px;
+    border: 1px solid #000;
+}
+
+.course1 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 635px;
+}
+.course2 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 635px;
+    
+
+}
+.course3 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 635px;
+
+}
+.course4 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 635px;
+
+}
+.course5 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 635px;
+
+}
+.course6 {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 635px;
 }
