@@ -4,12 +4,16 @@
 }
 
 body {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items:  center;
     background-color: rgb(212, 212, 212);
 
+}
+
+figure {
+    width: 100%;
 }
 
 figure > img {
@@ -136,7 +140,7 @@ header {
 }
 .courseHistory {
     width: 1000px;
-    height: 2500px;
+    height: 1050px;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
@@ -149,38 +153,61 @@ header {
     margin-top: 20px;
 }
 .verticalLine {
-    height: 200px;
-    border-right: 1px solid red;
-}
-
-.horizontalLine {
-    width: 300px;
-    border: 1px solid #000;
+    width: 5px;
+    height: 800px;
+    /* border-right: 1px solid red; */
+    background-color: black;
 }
 
 .course1 {
     width: 350px;
     height: 150px;
     background-color: white;
-    margin-top: 50px;
+    margin-top: -700px;
     margin-right: 635px;
 }
+
+.horizontalLine1 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -80px;
+    margin-left: -140px;
+}
+
 .course2 {
     width: 350px;
     height: 150px;
     background-color: white;
     margin-top: -50px;
-    margin-left: 635px;
-    
+    margin-left: 635px;    
+}
 
+.horizontalLine2 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -65px;
+    margin-left: 140px;
 }
 .course3 {
     width: 350px;
     height: 150px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 180px;
     margin-right: 635px;
 
+}
+
+.horizontalLine3 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -80px;
+    margin-left: -140px;
 }
 .course4 {
     width: 350px;
@@ -190,13 +217,31 @@ header {
     margin-left: 635px;
 
 }
+
+.horizontalLine4 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -65px;
+    margin-left: 140px;
+}
 .course5 {
     width: 350px;
     height: 150px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 180px;
     margin-right: 635px;
 
+}
+
+.horizontalLine5 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -80px;
+    margin-left: -140px;
 }
 .course6 {
     width: 350px;
@@ -204,4 +249,46 @@ header {
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;
+}
+
+.horizontalLine6 {
+    width: 145px;
+    height: 5px;
+    background-color: black;
+    /* border: 1px solid #000; */
+    margin-top: -65px;
+    margin-left: 140px;
+}
+
+.containerGit {
+    width: 500px;
+    height: 100px;
+    background-color: #BB7B00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.containerGit > h2 {
+    margin-top: 10px;
+    
+}
+
+.containerGit > button {
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
