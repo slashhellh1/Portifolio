@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* @import url(https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap); */
 }
 
 body {
@@ -151,7 +152,23 @@ header {
     height: 100px;
     background-color: white;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
 }
+.courseTitle > img {
+    width: 80px;
+    height: 80px;
+    
+}
+.courseTitle > h2 {
+    font-size: 50px;
+
+}
+
 .verticalLine {
     width: 5px;
     height: 800px;
@@ -165,6 +182,13 @@ header {
     background-color: white;
     margin-top: -700px;
     margin-right: 635px;
+}
+.course1 > div {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
 }
 
 .horizontalLine1 {
@@ -182,6 +206,13 @@ header {
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;    
+}
+.course2 > div {
+    width: 150px;
+    height: 45px;
+    background-color:  rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
 }
 
 .horizontalLine2 {
@@ -201,6 +232,14 @@ header {
 
 }
 
+.course3 > div {
+    width: 150px;
+    height: 45px;
+    background-color:  rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
 .horizontalLine3 {
     width: 145px;
     height: 5px;
@@ -218,6 +257,13 @@ header {
 
 }
 
+.course4 > div {
+    width: 150px;
+    height: 45px;
+    background-color:  rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
+}
 .horizontalLine4 {
     width: 145px;
     height: 5px;
@@ -235,6 +281,14 @@ header {
 
 }
 
+.course5 > div {
+    width: 150px;
+    height: 45px;
+    background-color:  rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
 .horizontalLine5 {
     width: 145px;
     height: 5px;
@@ -249,6 +303,13 @@ header {
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;
+}
+.course6 > div {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(84, 84, 167);
+    margin-top: 10px;
+    margin-left: -15px;
 }
 
 .horizontalLine6 {
