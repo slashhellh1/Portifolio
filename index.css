@@ -185,6 +185,27 @@ header {
     margin-right: 635px;
     
 }
+.containerIcon {
+    width: 50px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.containerInstitute {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.documentIcon {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+
+}
+.universityIcon {
+    width: 30px;
+    height: 30px;
+}
 .course1 > div {
     width: 150px;
     height: 45px;
