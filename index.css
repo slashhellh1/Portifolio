@@ -30,7 +30,7 @@ header {
     height: 450px;
     
 
-    background-color: #BB7B00;
+    background-color: #b8860b;
     margin-top: -300px;
     display: flex;
     flex-direction: row;
@@ -116,10 +116,10 @@ header {
 }
 .myHistory > h2 {
     text-align: center;
-    text-decoration: underline wavy;
+    /* text-decoration: underline wavy; */
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 
 }
@@ -135,7 +135,7 @@ header {
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    background-color: #BB7B00;
+    background-color: grey;
     border: 1px;
 
 }
@@ -171,7 +171,7 @@ header {
 
 .verticalLine {
     width: 5px;
-    height: 910px;
+    height: 1060px;
     /* border-right: 1px solid red; */
     background-color: black;
     margin-top: 250px;
@@ -179,43 +179,72 @@ header {
 
 .course1 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
-    margin-top: -1050px;
+    margin-top: -1230px;
     margin-right: 635px;
     
 }
-.containerIcon {
-    width: 50px;
-    height: 20px;
-    background-color: aqua;
-}
 
 .containerInstitute {
+    width: auto;
+    height: 200px;
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    
 }
-.documentIcon {
-    width: 10px;
-    height: 10px;
-    background-color: aqua;
+.containerInstitute > p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.devContainer1 {
+    width: 300px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.devIcon1 {
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
 
 }
-.universityIcon {
-    width: 30px;
-    height: 30px;
+.universityContainer1 {
+    width: 300px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
 }
-.course1 > div {
+.universityIcon1 {
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+}
+
+.containerDate {
     width: 150px;
     height: 45px;
-    background-color: rgb(92, 92, 184);
+    background-color: rgb(84, 84, 167);
     box-shadow: 5px 8px 12px gray;
     /* position: absolute; */
     margin-top: 10px;
     margin-left: -15px;
+    display: flex;
+    /* align-items: center; */
+    
+    
+    
 }
-.course1 > div ::after {
+.containerDate ::after {
     content: "";
     position: absolute;
     border-style: solid;
@@ -223,11 +252,19 @@ header {
     right: 0; */
     border-top-width: 15px;
     border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
+    border-top-color: rgb(41, 41, 86) ;
     border-left-color:transparent;
     border-bottom-color: transparent;
     border-right-color: transparent;
-    margin-top: 45px;
+    margin-top: 32px;
+    margin-left: -139px;
+}
+.date {
+    margin: auto;
+    font-size: 15px;
+    /* margin-top: 50px; */
+    
+
 }
 
 .horizontalLine1 {
@@ -235,13 +272,13 @@ header {
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: -140px;
 }
 
 .course2 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;    
@@ -254,31 +291,18 @@ header {
     margin-top: 10px;
     margin-left: -15px;
 }
-.course2 > div ::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    /* bottom: 0;
-    right: 0; */
-    border-top-width: 15px;
-    border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
-    border-left-color:transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    margin-top: 45px;
-}
+
 .horizontalLine2 {
     width: 145px;
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: 140px;
 }
 .course3 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     margin-top: 180px;
     margin-right: 635px;
@@ -293,32 +317,19 @@ header {
     margin-top: 10px;
     margin-left: -15px;
 }
-.course3 > div ::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    /* bottom: 0;
-    right: 0; */
-    border-top-width: 15px;
-    border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
-    border-left-color:transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    margin-top: 45px;
-}
+
 
 .horizontalLine3 {
     width: 145px;
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: -140px;
 }
 .course4 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;
@@ -333,31 +344,18 @@ header {
     margin-top: 10px;
     margin-left: -15px;
 }
-.course4 > div ::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    /* bottom: 0;
-    right: 0; */
-    border-top-width: 15px;
-    border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
-    border-left-color:transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    margin-top: 45px;
-}
+
 .horizontalLine4 {
     width: 145px;
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: 140px;
 }
 .course5 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     margin-top: 180px;
     margin-right: 635px;
@@ -372,32 +370,19 @@ header {
     margin-top: 10px;
     margin-left: -15px;
 }
-.course5 > div ::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    /* bottom: 0;
-    right: 0; */
-    border-top-width: 15px;
-    border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
-    border-left-color:transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    margin-top: 45px;
-}
+
 
 .horizontalLine5 {
     width: 145px;
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: -140px;
 }
 .course6 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     margin-top: -50px;
     margin-left: 635px;
@@ -410,34 +395,21 @@ header {
     margin-top: 10px;
     margin-left: -15px;
 }
-.course6 > div ::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    /* bottom: 0;
-    right: 0; */
-    border-top-width: 15px;
-    border-left-width: 15px;
-    border-top-color: rgb(56, 56, 114) ;
-    border-left-color:transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    margin-top: 45px;
-}
+
 
 .horizontalLine6 {
     width: 145px;
     height: 5px;
     background-color: black;
     /* border: 1px solid #000; */
-    margin-top: -115px;
+    margin-top: -135px;
     margin-left: 140px;
 }
 
 .containerGit {
     width: 500px;
     height: 100px;
-    background-color: #BB7B00;
+    background-color: grey;
     display: flex;
     flex-direction: column;
     align-items: center;
